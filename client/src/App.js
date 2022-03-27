@@ -128,7 +128,7 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <h1>유섭아 가즈앗</h1>
+        <h1>Blog</h1>
         <form onSubmit={this.onSubmitPost}>
           <input 
             type="text" 
@@ -157,7 +157,7 @@ class App extends Component {
               <div 
                 onClick={this.onClickGiveTip}
                 data-id={id}
-              >기부 버튼!!</div>
+              >Donate</div>
             </div>
           )
         })}
